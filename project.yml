@@ -1,0 +1,57 @@
+name: Piccolo
+options:
+  minimumXcodeGenVersion: 2.46.0
+  deploymentTarget:
+    macOS: "14.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    CLANG_ENABLE_MODULES: YES
+targets:
+  Piccolo:
+    type: application
+    platform: macOS
+    sources:
+      - path: Piccolo
+        excludes:
+          - Piccolo.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ian.piccolo
+        PRODUCT_NAME: Piccolo
+        CODE_SIGN_ENTITLEMENTS: Piccolo/Piccolo.entitlements
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Piccolo
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.photography
+        INFOPLIST_KEY_NSHumanReadableCopyright: ""
+        ENABLE_APP_SANDBOX: YES
+        ENABLE_HARDENED_RUNTIME: YES
+    entitlements:
+      path: Piccolo/Piccolo.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.files.user-selected.read-write: true
+  PiccoloTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: PiccoloTests
+    dependencies:
+      - target: Piccolo
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ian.piccolo.tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Piccolo.app/Contents/MacOS/Piccolo"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+schemes:
+  Piccolo:
+    build:
+      targets:
+        Piccolo: all
+        PiccoloTests: [test]
+    test:
+      targets:
+        - PiccoloTests
