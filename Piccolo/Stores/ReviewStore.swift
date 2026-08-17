@@ -99,8 +99,12 @@ final class ReviewStore: ObservableObject {
                 clearQueues()
                 return
             }
+            replaceSourceURL(resolvedSource)
+            replaceKeepURL(resolved.keepDestinationURL)
             if let keep = resolved.keepDestinationURL,
                Self.directoriesAreEqual(resolvedSource, keep) {
+                replaceSourceURL(nil)
+                replaceKeepURL(keep)
                 showSameFolderError()
                 clearQueues()
                 return
@@ -115,8 +119,7 @@ final class ReviewStore: ObservableObject {
                 try await persistence.save(reconciliation.session)
             }
             session = reconciliation.session
-            replaceSourceURL(resolvedSource)
-            replaceKeepURL(resolved.keepDestinationURL)
+            
             configureInitialRound(with: reconciliation.initialItems)
         } catch {
             showGenericError("Couldn’t load the selected photo folder.", error: error)
