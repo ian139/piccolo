@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02096DC11D984E64B7AB635B /* PhotoFileSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673A5301AB8BE8BEDB739820 /* PhotoFileSystemTests.swift */; };
+		35134452490E8C6895671EED /* PhotoReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF298E651D84E7729A85F396 /* PhotoReviewView.swift */; };
+		46555191D9CE553CB8F53DF3 /* PiccoloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33043CF8B8C9DF0271A95768 /* PiccoloApp.swift */; };
+		67F5E0935765B751668045D2 /* ReviewStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE74DA785F0D3A7DAD2DFA8 /* ReviewStoreTests.swift */; };
+		6BADD0EB5BFE4209F9B2AC67 /* ReviewControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0DF1A66DF1C7CBFDCF11D /* ReviewControlsView.swift */; };
+		773849B12A29B189FA93B99C /* ReviewSessionPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85588019273658449D113320 /* ReviewSessionPersistence.swift */; };
+		792CCD045E86D9FB84B386D7 /* ReviewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DA4170B8AC32403B946ED /* ReviewStore.swift */; };
+		81251D24B9250CC2C4B11F1D /* PhotoFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299FC6FB742D48645C1FD16 /* PhotoFileSystem.swift */; };
+		A0D4EA9AE7E271DECADA1228 /* PhotoPreviewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A114B45781248405B723C97 /* PhotoPreviewLoader.swift */; };
+		AB945782934B48E6B9E5DCD7 /* ReviewSessionPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0372FB7F4426FF2733663E /* ReviewSessionPersistenceTests.swift */; };
+		D7C17ECB7EBC4DF8B2B3078E /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144A9492C0A821D0758A4C6F /* PhotoItem.swift */; };
+		DCA622C7EEEFA3D5665A9D12 /* ReviewSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A301659D8A641A3DC6822 /* ReviewSession.swift */; };
+		E8FD0AEF8B2315789EA1ED84 /* PhotoCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553508487DA3ADD0D9BE14AB /* PhotoCanvasView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ECC84D4B26E0A26600A3244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7920828B35EBF365B3B075F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24439422255C1B4D88551B61;
+			remoteInfo = Piccolo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144A9492C0A821D0758A4C6F /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
+		205D17F8187D04FF77D2FBF1 /* Piccolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piccolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33037C3BCF6FE335F92490FA /* PiccoloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiccoloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33043CF8B8C9DF0271A95768 /* PiccoloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiccoloApp.swift; sourceTree = "<group>"; };
+		553508487DA3ADD0D9BE14AB /* PhotoCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCanvasView.swift; sourceTree = "<group>"; };
+		5F2DA4170B8AC32403B946ED /* ReviewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewStore.swift; sourceTree = "<group>"; };
+		673A5301AB8BE8BEDB739820 /* PhotoFileSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFileSystemTests.swift; sourceTree = "<group>"; };
+		6C0372FB7F4426FF2733663E /* ReviewSessionPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSessionPersistenceTests.swift; sourceTree = "<group>"; };
+		85588019273658449D113320 /* ReviewSessionPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSessionPersistence.swift; sourceTree = "<group>"; };
+		8A114B45781248405B723C97 /* PhotoPreviewLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewLoader.swift; sourceTree = "<group>"; };
+		9BE74DA785F0D3A7DAD2DFA8 /* ReviewStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewStoreTests.swift; sourceTree = "<group>"; };
+		AF298E651D84E7729A85F396 /* PhotoReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoReviewView.swift; sourceTree = "<group>"; };
+		E299FC6FB742D48645C1FD16 /* PhotoFileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFileSystem.swift; sourceTree = "<group>"; };
+		F3D0DF1A66DF1C7CBFDCF11D /* ReviewControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewControlsView.swift; sourceTree = "<group>"; };
+		F73A301659D8A641A3DC6822 /* ReviewSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSession.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		18EEF7821425D08A37EC102A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				144A9492C0A821D0758A4C6F /* PhotoItem.swift */,
+				F73A301659D8A641A3DC6822 /* ReviewSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3023B537CEC7E388061CF664 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E299FC6FB742D48645C1FD16 /* PhotoFileSystem.swift */,
+				8A114B45781248405B723C97 /* PhotoPreviewLoader.swift */,
+				85588019273658449D113320 /* ReviewSessionPersistence.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		33320B0B7D25FE7D3ABD8EE7 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				5F2DA4170B8AC32403B946ED /* ReviewStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		3C398DD1D59A6F9698CF3772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				205D17F8187D04FF77D2FBF1 /* Piccolo.app */,
+				33037C3BCF6FE335F92490FA /* PiccoloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410AF565E034EC04F0991072 = {
+			isa = PBXGroup;
+			children = (
+				A4834ACC1F381F4E051B2A29 /* Piccolo */,
+				FC0950816517C73ED491CA9B /* PiccoloTests */,
+				3C398DD1D59A6F9698CF3772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5434EEF4F51EA77742E969FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				553508487DA3ADD0D9BE14AB /* PhotoCanvasView.swift */,
+				AF298E651D84E7729A85F396 /* PhotoReviewView.swift */,
+				F3D0DF1A66DF1C7CBFDCF11D /* ReviewControlsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4834ACC1F381F4E051B2A29 /* Piccolo */ = {
+			isa = PBXGroup;
+			children = (
+				CC3FA489756484C1CDE40D00 /* App */,
+				18EEF7821425D08A37EC102A /* Models */,
+				3023B537CEC7E388061CF664 /* Services */,
+				33320B0B7D25FE7D3ABD8EE7 /* Stores */,
+				5434EEF4F51EA77742E969FB /* Views */,
+			);
+			path = Piccolo;
+			sourceTree = "<group>";
+		};
+		CC3FA489756484C1CDE40D00 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				33043CF8B8C9DF0271A95768 /* PiccoloApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC0950816517C73ED491CA9B /* PiccoloTests */ = {
+			isa = PBXGroup;
+			children = (
+				673A5301AB8BE8BEDB739820 /* PhotoFileSystemTests.swift */,
+				6C0372FB7F4426FF2733663E /* ReviewSessionPersistenceTests.swift */,
+				9BE74DA785F0D3A7DAD2DFA8 /* ReviewStoreTests.swift */,
+			);
+			path = PiccoloTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24439422255C1B4D88551B61 /* Piccolo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA90027BCE1F860574564C21 /* Build configuration list for PBXNativeTarget "Piccolo" */;
+			buildPhases = (
+				C062EF9B0252D7A38F4C9B36 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Piccolo;
+			packageProductDependencies = (
+			);
+			productName = Piccolo;
+			productReference = 205D17F8187D04FF77D2FBF1 /* Piccolo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AD380F0BFA2189EB0880775 /* PiccoloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903E8972484858ADF92B8F3D /* Build configuration list for PBXNativeTarget "PiccoloTests" */;
+			buildPhases = (
+				833E2772D522CC1D0A2A4EA8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8E683F598D1FC7664887643 /* PBXTargetDependency */,
+			);
+			name = PiccoloTests;
+			packageProductDependencies = (
+			);
+			productName = PiccoloTests;
+			productReference = 33037C3BCF6FE335F92490FA /* PiccoloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7920828B35EBF365B3B075F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = F96402F35F156D9295965CDB /* Build configuration list for PBXProject "Piccolo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 410AF565E034EC04F0991072;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3C398DD1D59A6F9698CF3772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24439422255C1B4D88551B61 /* Piccolo */,
+				2AD380F0BFA2189EB0880775 /* PiccoloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		833E2772D522CC1D0A2A4EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02096DC11D984E64B7AB635B /* PhotoFileSystemTests.swift in Sources */,
+				AB945782934B48E6B9E5DCD7 /* ReviewSessionPersistenceTests.swift in Sources */,
+				67F5E0935765B751668045D2 /* ReviewStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C062EF9B0252D7A38F4C9B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8FD0AEF8B2315789EA1ED84 /* PhotoCanvasView.swift in Sources */,
+				81251D24B9250CC2C4B11F1D /* PhotoFileSystem.swift in Sources */,
+				D7C17ECB7EBC4DF8B2B3078E /* PhotoItem.swift in Sources */,
+				A0D4EA9AE7E271DECADA1228 /* PhotoPreviewLoader.swift in Sources */,
+				35134452490E8C6895671EED /* PhotoReviewView.swift in Sources */,
+				46555191D9CE553CB8F53DF3 /* PiccoloApp.swift in Sources */,
+				6BADD0EB5BFE4209F9B2AC67 /* ReviewControlsView.swift in Sources */,
+				DCA622C7EEEFA3D5665A9D12 /* ReviewSession.swift in Sources */,
+				773849B12A29B189FA93B99C /* ReviewSessionPersistence.swift in Sources */,
+				792CCD045E86D9FB84B386D7 /* ReviewStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8E683F598D1FC7664887643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24439422255C1B4D88551B61 /* Piccolo */;
+			targetProxy = 5ECC84D4B26E0A26600A3244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AD508B9FECD984310366728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Piccolo/Piccolo.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Piccolo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ian.piccolo;
+				PRODUCT_NAME = Piccolo;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		62B6C42598C87B413000E56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		69EA5F8ECDB16AEDD0590D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Piccolo/Piccolo.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Piccolo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ian.piccolo;
+				PRODUCT_NAME = Piccolo;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B1BE7A217930150E9BC7C0E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ian.piccolo.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piccolo.app/Contents/MacOS/Piccolo";
+			};
+			name = Release;
+		};
+		D5FE94CB51A2724A9791CCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ian.piccolo.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piccolo.app/Contents/MacOS/Piccolo";
+			};
+			name = Debug;
+		};
+		FB8E7CB9AD3CF6C4A032D406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		903E8972484858ADF92B8F3D /* Build configuration list for PBXNativeTarget "PiccoloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FE94CB51A2724A9791CCBF /* Debug */,
+				B1BE7A217930150E9BC7C0E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA90027BCE1F860574564C21 /* Build configuration list for PBXNativeTarget "Piccolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69EA5F8ECDB16AEDD0590D9E /* Debug */,
+				1AD508B9FECD984310366728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F96402F35F156D9295965CDB /* Build configuration list for PBXProject "Piccolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B6C42598C87B413000E56A /* Debug */,
+				FB8E7CB9AD3CF6C4A032D406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7920828B35EBF365B3B075F1 /* Project object */;
+}
