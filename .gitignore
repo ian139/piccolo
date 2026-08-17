@@ -1,3 +1,4 @@
 .todos/
 build/
 dist/
+.DS_Store
